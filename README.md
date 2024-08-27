@@ -8,17 +8,17 @@ Primero, descarga el archivo `antlr-4.x-complete.jar` desde el sitio oficial de 
 
 wget https://www.antlr.org/download/antlr-4.12.0-complete.jar -P ~/Descargas/
 
-## 3. Configurar el CLASSPATH
+## 2. Configurar el CLASSPATH
 
 Añade el archivo antlr-4.x-complete.jar al CLASSPATH de tu sistema para que esté disponible en cualquier sesión de terminal.
 
-## 3.1. Editar el archivo de configuración del shell
+## 2.1. Editar el archivo de configuración del shell
 
 Abre el archivo de configuración de tu shell en Sublime Text:
 
 subl ~/.bashrc
 
-## 3.2. Añadir la configuración del CLASSPATH
+## 2.2. Añadir la configuración del CLASSPATH
 
 Añade la siguiente línea al final del archivo:
 
@@ -26,13 +26,13 @@ export CLASSPATH=".:/home/TuUsuario/Descargas/antlr-4.x-complete.jar:$CLASSPATH"
 
 Reemplaza TuUsuario con tu nombre de usuario real y ajusta la ruta si moviste el archivo .jar a otra ubicación.
 
-## 3.3. Guardar y aplicar los cambios
+## 2.3. Guardar y aplicar los cambios
 
 Guarda el archivo y luego ejecuta el siguiente comando para aplicar los cambios:
 
 source ~/.bashrc
 
-## 4. Probar la instalación
+## 3. Probar la instalación
 
 Para verificar que ANTLR se ha instalado correctamente, puedes probarlo ejecutando el siguiente comando en la terminal:
 
