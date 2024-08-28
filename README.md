@@ -54,13 +54,13 @@ Deberías ver la versión de ANTLR como salida, confirmando que está funcionand
 
 ## Descripción
 
-Esta guía describe el proceso de implementación de una calculadora simple utilizando ANTLR para el análisis léxico y sintáctico. La calculadora puede realizar operaciones aritméticas básicas y manejar expresiones dentro de paréntesis y valores absolutos.
+Esta guía describe el proceso de implementación de una calculadora utilizando Python y ANTLR para el análisis léxico y sintáctico. 
 
 Pasos
 
 1. Definir la Gramática
 
-Archivo: Calc.g4
+Archivo: LabeledExpr.g4
 
 Este archivo define la gramática para la calculadora, que incluye tanto las reglas de análisis léxico como las de análisis sintáctico. La gramática se encarga de identificar números, operadores y las estructuras de las expresiones matemáticas.
 
@@ -68,19 +68,19 @@ Este archivo define la gramática para la calculadora, que incluye tanto las reg
 
 Utiliza ANTLR para generar el lexer y el parser a partir del archivo de gramática. Ejecuta el siguiente comando:
 
-antlr4 Calc.g4 -Dlanguage=Python3
+sudo apt install python3-pip
+
+antlr4 LabeledExpr.g4 -Dlanguage=Python3
 
 3. Implementar el Visitante para Evaluar Expresiones
 
-Archivo: CalcMain.py
+Archivo: calc.py - MyVisitor1.py
 
 Implementa un visitante que procesará el árbol de parseo y evaluará las expresiones matemáticas basadas en la gramática definida. Este archivo también maneja la entrada del usuario y muestra los resultados.
 
 4. Ejecutar la Calculadora
 
-Para ejecutar la calculadora, asegúrate de que todos los archivos generados por ANTLR estén en el mismo directorio que CalcMain.py, y luego ejecuta el archivo Python:
-
-python3 CalcMain.py
+python3 calc.py t.exp
 
 Esto iniciará la calculadora, permitiéndote ingresar expresiones matemáticas para evaluarlas.
 
