@@ -39,6 +39,7 @@ source ~/.bashrc
 Para verificar que ANTLR se ha instalado correctamente, puedes probarlo ejecutando el siguiente comando en la terminal:
 
 java -jar ~/Descargas/antlr-4.12.0-complete.jar -version
+
 java org.antlr.v4.Tool
 
 Deberías ver la versión de ANTLR como salida, confirmando que está funcionando correctamente.
