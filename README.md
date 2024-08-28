@@ -11,6 +11,7 @@ wget https://www.antlr.org/download/antlr-4.12.0-complete.jar -P ~/Descargas/
 ## 2. Configurar el CLASSPATH
 
 Añade el archivo antlr-4.x-complete.jar al CLASSPATH de tu sistema para que esté disponible en cualquier sesión de terminal.
+
 export CLASSPATH=".:/home/TuUsuario/Descargas/antlr-4.x-complete.jar:$CLASSPATH"
 
 ## 2.1. Editar el archivo de configuración del shell
