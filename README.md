@@ -50,9 +50,39 @@ java org.antlr.v4.Tool
 
 Deberías ver la versión de ANTLR como salida, confirmando que está funcionando correctamente.
 
-# Implementacion de la calculadora
+# Implementación de Calculadora con ANTLR
 
+## Descripción
 
+Esta guía describe el proceso de implementación de una calculadora simple utilizando ANTLR para el análisis léxico y sintáctico. La calculadora puede realizar operaciones aritméticas básicas y manejar expresiones dentro de paréntesis y valores absolutos.
+
+Pasos
+
+1. Definir la Gramática
+
+Archivo: Calc.g4
+
+Este archivo define la gramática para la calculadora, que incluye tanto las reglas de análisis léxico como las de análisis sintáctico. La gramática se encarga de identificar números, operadores y las estructuras de las expresiones matemáticas.
+
+2. Generar Lexer y Parser
+
+Utiliza ANTLR para generar el lexer y el parser a partir del archivo de gramática. Ejecuta el siguiente comando:
+
+antlr4 Calc.g4 -Dlanguage=Python3
+
+3. Implementar el Visitante para Evaluar Expresiones
+
+Archivo: CalcMain.py
+
+Implementa un visitante que procesará el árbol de parseo y evaluará las expresiones matemáticas basadas en la gramática definida. Este archivo también maneja la entrada del usuario y muestra los resultados.
+
+4. Ejecutar la Calculadora
+
+Para ejecutar la calculadora, asegúrate de que todos los archivos generados por ANTLR estén en el mismo directorio que CalcMain.py, y luego ejecuta el archivo Python:
+
+python3 CalcMain.py
+
+Esto iniciará la calculadora, permitiéndote ingresar expresiones matemáticas para evaluarlas.
 
 # Pruebas Funcionales
 
