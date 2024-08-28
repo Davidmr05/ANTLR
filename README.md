@@ -16,9 +16,9 @@ export CLASSPATH=".:/home/TuUsuario/Descargas/antlr-4.x-complete.jar:$CLASSPATH"
 
 ## 2.1. Editar el archivo de configuración del shell
 
-Abre el archivo de configuración de tu shell en Sublime Text:
+Abre el archivo de configuración de tu shell en tu editor de texto favorito: 
 
-subl ~/.bashrc
+Sublime Text: subl ~/.bashrc
 
 ## 2.2. Añadir la configuración del CLASSPATH
 
