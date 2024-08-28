@@ -1,3 +1,9 @@
+# Integrantes 
+
+1. David Martinez
+2. Franco Comas
+3. ANtony Brahona
+
 # Instalación de ANTLR en Linux
 
 Guía paso a paso para instalar ANTLR en sistema Linux y configurarlo correctamente.
