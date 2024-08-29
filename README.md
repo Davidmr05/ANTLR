@@ -86,4 +86,29 @@ Esto iniciará la calculadora, permitiéndote ingresar expresiones matemáticas 
 
 # Pruebas Funcionales
 
+Para la prubea funcional se utilizo el t.exp: 
+
+45
+x = 7
+y = 3
+x + y * 4
+2 * (3 + 5)
+9 / 3 - 1
+
+10 - 2 - 4 + 1
+x = false
+!x
+
+x = -7
+x
+
+X = 2
+Y = x++
+X = 2
+Y = ++x
+X = 2
+Y = x--
+
+![Captura desde 2024-08-29 13-32-09](https://github.com/user-attachments/assets/d51788f3-96c1-4d21-a428-49fa0ef81fb2)
+
 
