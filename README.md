@@ -80,7 +80,7 @@ Esta guía describe el proceso de implementación de una calculadora utilizando 
    - **Archivo:** calc.py
    - **Descripción:** Este archivo contiene toda la lógica final necesaria para ejecutar la calculadora. Utiliza el entorno tkinter para proporcionar una interfaz gráfica que facilite la interacción con el usuario. Ejecuta el siguiente comando para iniciar la calculadora:
      ```bash
-     python3 calc.py
+     python3 calc.py t.exp
      ```
      Esto iniciará la calculadora, permitiéndote ingresar expresiones matemáticas para evaluarlas.
 
